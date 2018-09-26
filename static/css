@@ -1,0 +1,27 @@
+body {margin:50px;}
+ .green {color:green;}
+ .bold {text-decoration-style: bold;}
+
+ table{border:10px solid DeepPink;
+ 		opacity:1;
+ 		background-color: PeachPuff;
+ 		border-collpase :collpase; 
+ 		padding:10px;
+ 		font-size: 24px;
+ 		align-self: center;
+ 	
+ 	 	}
+.introduction{ font-family: Arial; }
+
+#title{ color: rgb(154,205,50) ;
+		font-size:30px; 
+		background-color: rgb(107,142,35);}
+
+
+
+td {
+    height: 50px;
+    text-align: center;
+
+    width:200px;
+}
