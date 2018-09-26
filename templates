@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>B07501086_Homework</title>
+	<link href="./stylesheet.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<h1 id="title">Hello!</h1>
+<h2>B07501086 Homework</h2>
+<p class="introduction">This is about my <em>homework</em> for this lesson. :)</p>
+<div><p class="introduction bold">I am looking forward to learn more things! Eventhough the lesson is hard for me.</p>
+
+<p>I have learned html and css before, but I forgot almost all of it.</p>
+</div>
+
+<table>
+	<thead>
+		<th>Week</th>
+		<th>Date</th>
+		<th>Homework</th>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Week 1</td>
+			<td>14.09.2018</td>
+			<td>Hello World</td>
+		</tr>
+		<tr>
+			<td>Week 2</td>
+			<td>21.09.2018</td>
+			<td>Html and Css</td>
+		</tr>
+		<tr>
+			<td>Week 3</td>
+			<td>28.09.2018</td>
+			<td>To Be Continue</td>
+
+		</tr>
+	</tbody>
+</table>
+</body>
+</html>
