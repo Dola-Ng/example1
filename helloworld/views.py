@@ -3,7 +3,11 @@ from django.contrib.auth import authenticate
 from django.contrib import auth
 from django.http import HttpResponse
 from django.contrib.auth.models import User
+from django import template
 
 
 def index(request):
-	return render(request, 'html.html')
+	loop = [0,1,2,3,4,5,6]
+	return render(request, 'html.html',locals()) 
+
+

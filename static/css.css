@@ -25,3 +25,22 @@ td {
 
     width:200px;
 }
+
+.container{ display : flex;
+			flex-direction:row;
+			flex-wrap: row wrap;
+			justify-content: center;
+			 }
+
+.item { order:3;
+		display: flex; 
+		align-self: center;
+		flex-grow: 0.1;
+		background-color: LightYellow ;
+		margin: 10px 0 0 2%;
+   
+  
+    width: calc(100% * (1/4) - 10px - 1px)
+		
+	}
+
