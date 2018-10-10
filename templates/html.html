@@ -49,8 +49,22 @@
 		<div class = "item"> Hello</div>
 		<div class = "item"> Hi</div>
 		<div class = "item"> Bye</div>
-{% endfor %}		
+{% endfor %}	
+
 </div> 
+
+<div class="booklist">
+	{% for test in booklist %}
+	<div class="test">
+		<a href="#">
+			{{test.book}}
+		</a>
+		<p>
+			{{test.review}}
+		</p>
+	</div>
+	{% endfor %}
+</div>
 
 
 </body>
