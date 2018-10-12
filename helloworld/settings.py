@@ -77,10 +77,15 @@ WSGI_APPLICATION = 'helloworld.wsgi.application'
 
 DATABASES = {
     'default': {
-         'ENGINE': 'django.db.backends.sqlite3',
-         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+         'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'test',
+        'USER': 'dola',
+        'PASSWORD': 'kk4tigerdola',
+        'HOST': 'localhost',
+        'PORT': '5432',
+    }
      }
-}
+
 #import dj_database_url
 #DATABASES = {
 #    'default': dj_database_url.config(),
