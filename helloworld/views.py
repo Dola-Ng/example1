@@ -11,3 +11,6 @@ def index(request):
 	loop = [0,1,2,3,4,5,6]
 	booklist = Booklist.objects.all().order_by('date')
 	return render (request, 'html.html',{'booklist':booklist,'loop':loop})
+
+def page (request):
+	return render (request, 'page.html')
