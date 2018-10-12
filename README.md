@@ -1,18 +1,17 @@
 
 # HOMEWORKB07501086
 
-##my-heroku : https://homeworktest2.herokuapp.com
+# my-heroku : https://homeworktest2.herokuapp.com
 
-#week1
+# week1
 - https://floating-plateau-83542.herokuapp.com
-  ^^ this is my first try
->>>>>>> 241cfade1b013219bd1b435480eca3e8423e9081
+  << this is my first try
 
 # week2
 - html and css
 - connet them in github
 
-# week 3: https://homeworktest2.herokuapp.com
+# week 3
 - django template
 - for loop
 
