@@ -28,3 +28,4 @@ The homework isnt good because I still dont know how to use.)
 - Rake not found is normal
 
 (p.s. when need to comfirm the homework can work or not, try to run it at server and then at heroku)
+(p.s. they can connect because they are all sql, not nosql)
