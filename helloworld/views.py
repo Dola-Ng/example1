@@ -12,10 +12,10 @@ import datetime
 def index(request):
 	loop = [0,1,2,3,4,5,6]
 	booklist = Booklist.objects.all()
-	book = request.POST.get('book')
-	review = request.POST.get('review')	     
+	book = request.POST.get('book',False)
+	review = request.POST.get('review',False)	     
 	date = datetime.datetime.now() 
-	Booklist.objects.create(book=book, review=review, date=date)
+	Booklist.objects.create( book=book, review=review, date=date)
 	reviews = Booklist.objects.all()
 
 
