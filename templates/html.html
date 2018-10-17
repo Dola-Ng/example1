@@ -53,18 +53,36 @@
 
 </div> 
 
-<div class="booklist">
-	{% for test in booklist %}
-	<div class="test">
-		<a href="#">
-			{{test.book}}
-		</a>
-		<p>
-			{{test.review}}
-		</p>
-	</div>
-	{% endfor %}
+<div>
+	<form action="" method="post">
+  
+    <input type="text" name="bookname"  placeholder="Book">
+     <input type="text" name="review"  placeholder="Review">
+  <input type="submit" value="Submit">
+</form>
+
 </div>
+<div>
+	
+	<h2>Book Review</h2>
+	<table>
+		<tr>
+			<th>Book</th>
+			<th>Review</th>
+			<th>Date</th>
+		</tr>
+	<tr>
+		{% for booklist in reviews %}
+		<td>{{booklist.bookname}}</td>
+		<td>{{booklist.review}}</td>
+		<td>{{booklist.date_time}}</td>
+		
+		{% endfor%}
+	</tr>
+	</table>
+	
+</div>
+
 
 
 </body>
