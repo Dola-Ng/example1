@@ -5,7 +5,6 @@ from django.http import HttpResponse
 from django.contrib.auth.models import User
 from django import template
 from booklist.models import Booklist
-from django.template.loader import get_template 
 import datetime
 
 
@@ -13,14 +12,14 @@ import datetime
 def index(request):
 	loop = [0,1,2,3,4,5,6]
 	booklist = Booklist.objects.all()
-	bookname = request.POST.get('bookname',False)
-	review = request.POST.get('review',False)	     
-	date_time = datetime.datetime.now() 
-	new = Booklist.objects.create(bookname=bookname, review=review, date_time=date_time)
+	book = request.POST.get('book')
+	review = request.POST.get('review')	     
+	date = datetime.datetime.now() 
+	Booklist.objects.create(book=book, review=review, date=date)
 	reviews = Booklist.objects.all()
 
 
-	return render (request, 'html.html',{'booklist':booklist,'loop':loop,'bookname':bookname,'review':review,'date_time':date_time})
+	return render (request, 'html.html',{'booklist':booklist,'loop':loop,'book':book,'review':review,'date':date})
 	
 
 def page (request):

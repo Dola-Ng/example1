@@ -5,9 +5,7 @@ class Booklist(models.Model):
 	book = models.CharField (max_length=20)
 	review = models.CharField (max_length=50)
 	date = models.DateTimeField(auto_now_add=True)
-	bookname = models.CharField(max_length=50)
-	reviewss = models.CharField(max_length=50)
-	date_time = models.DateTimeField(auto_now_add=True)
+	
 
 	
 def __str__(self):
