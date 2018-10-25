@@ -1,12 +1,13 @@
-from django.shortcuts import render,redirect   # 加入 redirect 套件
+from django.shortcuts import render,redirect, render_to_response  # 加入 redirect 套件
 from django.contrib.auth import authenticate
 from django.contrib import auth
-from django.http import HttpResponse
+from django.http import HttpResponse, HttpResponseRedirect
 from django.contrib.auth.models import User
 from django import template
 from booklist.models import Booklist
 import datetime
-
+#from django.contrib.auth.forms import UserCreationForm
+#from login_1.models import register
 
 
 def index(request):
@@ -22,11 +23,3 @@ def index(request):
 	return render (request, 'html.html',{'booklist':booklist,'loop':loop,'book':book,'review':review,'date':date})
 	
 
-def page (request):
-	return render (request, 'page.html')
-
-
-
-
-
-		

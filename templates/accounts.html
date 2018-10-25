@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Account
+	</title>
+</head>
+<body>
+ <h1>New Account</h1>
+
+
+    <form action="." method="POST" name="form1">
+        {% csrf_token %}
+    
+        <div>Username：<input type="text" name="username" id="username" /></div>
+        <div>Password：<input type="password" name="password" id="password" /></div>
+       
+        <div>
+            <input type="submit" name="button" id="button" value="submit" />
+        </div>
+    </form>
+    <span style="color: red">{{message}}</span>
+  <a href="/page.html">Login</a>
+       
+</body>
+</html>

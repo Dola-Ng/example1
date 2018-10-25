@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+{% load  staticfiles %}
+<head>
+    <title>Login</title>
+   
+<body>
+    <form action="." method="POST" name="form1">
+        {% csrf_token %}
+   <h1>Log In Here</h1>
+        <div>
+        <div>Account：<input type="text" name="username" id="username" /></div>
+        <div>Password：<input type="password" name="password" id="password" /></div>
+        <div>
+            <input type="submit" name="button" id="button" value="Login" />
+            <button type="button" onclick="location.href='/register_t/'">Register</button>
+            <button type="button" onclick="location.href='/'">Home page</button>
+           
+         </div>
+    </form>
+    <span style="color: pink">{{message}}</span>
+ 
+</body>
+</html>

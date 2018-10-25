@@ -6,8 +6,17 @@
 <body>
 <h1>This Is Home Page</h1>
 <div>
-	
-	<a href="/html.html">Click here to go to My Page</a>
+	 <form action="" method="post">
+        {% csrf_token %}
+            <label for="username">Username:</label>
+            <input type="text" name="username" value="" id="username"><br>
+            <label for="password">Password:</label>
+            <input type="password" name="password" value="" id="password"><br>
+            <input type="submit" value="login" />
+        </form>
+   
+<p><a href="/accounts.html">Register</a></p>
+	<a href="html.html">Click here to go to My Page</a>
 
 </div>
 </body>

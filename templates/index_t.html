@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+{% load  staticfiles %}
+<head>
+ 
+    <title>Home Page</title>
+</head>
+<body>
+
+    <h1>Home Page</h1>
+    {% if request.user.is_authenticated %}
+       Hello：{{name}}
+        <br><button type="button"  onclick="location.href='/logout_t'" style='color: red'>Logout</button>
+    {% else %}
+        <p>User havent log in!</p>
+        <button type="button"  onclick="location.href='/login_t/'" style='color: red'>Login</button>
+    {% endif %}
+    <span style="color: pink">{{message}}</span>
+
+    <p><button type="button"  onclick="location.href='/html/'" style='color: red'>My Page</button></p>
+    
+ 
+</body>
+</html>
