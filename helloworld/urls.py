@@ -18,24 +18,22 @@ from django.urls import path
 from . import views
 from django.contrib.auth.views import login, logout
 from login_1 import views as lviews
+from happy import views as hviews
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('html.html/', views.index),
-    #path('', views.page),
-    #path('page.html/', views.page),
-    #path('login.html/',views.login),
-    #path('logout.html/',views.logout),
-    #path('accounts.html/',views.accounts),
-    #path('page.html/login.html',views.login),
-    #path('loginerror.html/',views.loginerror),
-    #path('homepage.html',views.homepage)
     path('', lviews.index_t),
     path('html/', views.index),
     path('login_t/', lviews.login_t),
     path('logout_t/', lviews.logout_t),
     path('register_t/', lviews.register_t),
-    path('index_t/', lviews.index_t)
+    path('index_t/', lviews.index_t),
+    path('homepage/', views.inyo),
+    path('update/',views.update),
+    path('homepage/update.html',views.update)
+ 
+   
 ]
 
 
