@@ -29,3 +29,17 @@ The homework isnt good because I still dont know how to use.)
 
 (p.s. when need to comfirm the homework can work or not, try to run it at server and then at heroku)
 (p.s. they can connect because they are all sql, not nosql)
+
+# week5
+- Interactive with user using django template
+- connect database with browser
+
+# week6
+- create login page
+- create register, successfully logged in, login error and logout
+>Questions faced:
+>-What is the difference to use /login/ and /login.html/, and what is the meaning of / ?
+>-Redirect and render and HTTPresponese and whatever things
+>-Why user created successfully and saved to database but still cannot turn to the login page? Is that email problem?
+
+(p.s. basically i just followed what Zhujiao has done, cuz my code dosent work well, still have many problems on it)
