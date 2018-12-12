@@ -46,7 +46,7 @@ The homework isnt good because I still dont know how to use.)
 
 # final_project
 # week1
--doing bootstrap things
--focus on frontend
--a webpage
+- doing bootstrap things
+- focus on frontend
+- a webpage
 
