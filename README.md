@@ -44,8 +44,8 @@ The homework isnt good because I still dont know how to use.)
 
 (p.s. basically i just followed what Zhujiao has done, cuz my code dosent work well, still have many problems on it)
 
-#final_project
-#week1
+# final_project
+# week1
 -doing bootstrap things
 -focus on frontend
 -a webpage
