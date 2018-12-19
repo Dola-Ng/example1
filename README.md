@@ -50,3 +50,13 @@ The homework isnt good because I still dont know how to use.)
 - focus on frontend
 - a webpage
 
+# week2
+- review week 1 
+- bootstrap and project
+- abit of javascript
+
+# week3 
+- dom
+- learning javascript 
+- interaction between javascript and html, css
+- scr!!!!!!!
