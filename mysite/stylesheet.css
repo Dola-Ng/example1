@@ -10,6 +10,25 @@ body {
     font-family: 'Annie Use Your Telescope', cursive;
 }
 
+
+.outline-color{
+	color:#ff6699;
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #e6e6ff;
+}
+
+.bg-col{
+  background-color: #800080;
+}
+
 .tooltip {
   position: relative;
   display: inline-block;
@@ -48,27 +67,9 @@ body {
   visibility: visible;
   opacity: 1;
 }
-
-.outline-color{
-	color:#ff6699;
 }
 
-.nav-right{
-  float: right;
-  padding: 6px;
-  border: none;
-  margin-top: 8px;
-  margin-right: 16px;
-  font-size: 17px;
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
 }
-
-.footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 60px;
-  line-height: 60px; /* Vertically center the text there */
-  background-color: #e6e6ff;
-}
-

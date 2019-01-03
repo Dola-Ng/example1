@@ -26,15 +26,15 @@
 </head>
 <body>
 	<!-- navbar starts here -->
-<nav id="mainNavbar" class="navbar navbar-dark d-flex navbar-expand-md py-0 fixed-top">
-        <a href="#" class="navbar-brand"><i class="far fa-meh-blank"><span class="brandname"> Dola's</span> </i></a>
-         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<nav id="mainNavbar" class="navbar navbar-dark bg-col navbar-expand-md py-0 fixed-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navLinks">
-            <ul class="navbar-nav">
+             <a href="#" class="navbar-brand"><i class="far fa-meh-blank"><span class="brandname"> Dola's</span> </i></a>
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li class="nav-item">
-                    <a href="" class="nav-link"><i class="fas fa-home"></i></a>
+                    <a href="index.html" class="nav-link"><i class="fas fa-home"></i></a>
                 </li>
                 <li class="nav-item">
                     <a href="" class="nav-link"><i class="fas fa-scroll"></i></a>
@@ -43,14 +43,16 @@
                     <a href="" class="nav-link"><i class="far fa-user"></i></a>
                 </li>
                 <li class="nav-item">
+            
                     <a href="" class="nav-link"><i class="far fa-envelope"></i></a>
+                   
                 </li>
                 </ul>
-            <div class="nav-right">
-                    <form class="form-inline mt-2 mt-md-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn outline-color my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
-                    </form>
+                <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2 pd-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-light my-2 my-sm-0" type="submit"><i class="fa fa-search"></i></button>
+    </form>
+           
             </div>
               
         </div>
@@ -68,10 +70,11 @@
 <!-- main content aka containerssss -->
 <div class="py-2 px-5">
    
-        <div class="">
             <!-- title: transition effect, hover efect, and can link to the article  -->
+            <!-- calligraphy -->
+        <div class="mb-5">
             <h2>Calligraphy</h2>
-                <dir class="container maindiv">
+                <div class="container maindiv">
                     <div class="row" >
                         <!-- img here -->
                     <div class="col-4">
@@ -81,31 +84,77 @@
                     <div class="col-8">
                     I have just started to learn calligraphy. It's so pretty and elegent! I can't wait for myself to actually writing all those pretty and fancy word!
                         <!-- button or anylink inside the description -->
-                       <p><button type="button" class="btn btn-outline-light">More Info</button></p>
+                        <p></p>
+                        <p></p>
+                        <p><a href="calligraphy.html" class="btn btn-outline-light" role="button" aria-pressed="true">More Info</a></p>
                     </div>
                 </div>
+            </div>
         </div>
+    <!-- next one is opposite direction -->
+<!-- journal -->
+        <div class="mb-5">
+            <h2>Journal</h2>
+                <div class="container maindiv pd-2">
+                    <div class="row" >
+                        <!-- img here -->
+                    <div class="col-4 order-2">
+                        <img src="imgs/traveljournal/1.jpg" class="img-fluid">
+                    </div>   
+                    <!-- description here -->
+                    <div class="col-8 order-1">
+                    Journalling is a good way to track your daily life! I believe in you are what you do every day, so I would like to keep every moment in mind!
+                        <!-- button or anylink inside the description -->
+                        <p></p>
+                        <p></p>
+                        <p><a href="journal.html" class="btn btn-outline-light" role="button" aria-pressed="true">More Info</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>    
 
-    
-
-<!-- next one is opposite direction -->
-<h2>Calligraphy</h2>
-                <dir class="container maindiv">
+<!-- store -->
+        <div class="mb-5">
+             <h2>Store</h2>
+                <div class="container maindiv pd-2">
                     <div class="row" >
                         <!-- img here -->
                     <div class="col-4">
-                        <img src="imgs/calligraphy/1.jpg" class="img-fluid">
+                        <img src="imgs/store/1.jpg" class="img-fluid">
                     </div>   
                     <!-- description here -->
                     <div class="col-8">
-                    I have just started to learn calligraphy. It's so pretty and elegent! I can't wait for myself to actually writing all those pretty and fancy word!
+                    I would like to open my own store in the future. I am trying to get as many resources as possible and think for a way to start it. Nice shop is really coll!
                         <!-- button or anylink inside the description -->
-                       <p><button type="button" class="btn btn-outline-light">More Info</button></p>
+                        <p></p>
+                        <p></p>
+                       <p><a href="store.html" class="btn btn-outline-light" role="button" aria-pressed="true">More Info</a></p>
                     </div>
                 </div>
+            </div>
         </div>
-</div>
+<!-- webdevelopment -->
+        <div class="mb-5">
+           <h2>Web Development</h2>
+                <div class="container maindiv">
+                    <div class="row" >
+                        <!-- img here -->
+                    <div class="col-4 order-2">
+                        <img src="imgs/website/2.jpg" class="img-fluid">
+                    </div>   
+                    <!-- description here -->
+                    <div class="col-8 order-1">
+                    Currently learning web development courses both online and offline. So here is a place I share my project done in the courses.
+                        <!-- button or anylink inside the description -->
 
+                        <p></p>
+                        <p></p>
+                        <p><a href="website.html" class="btn btn-outline-light" role="button" aria-pressed="true">More Info</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 <!-- footer starts here! -->
 <footer class="footer">
     <div class="container">
