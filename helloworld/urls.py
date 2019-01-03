@@ -17,12 +17,19 @@ from django.contrib import admin
 from django.urls import path
 from . import views
 from django.contrib.auth.views import login, logout
-from login_1 import views as lviews
-from happy import views as hviews
+
 
 urlpatterns = [
-    path('', views.index,)
-  
+    path('', views.index),
+    path('calligraphy/', views.calligraphy),
+    path('store/', views.store),
+    path('journal/', views.journal),
+    path('website/', views.website),
+    path('color/', views.colorgame),
+    path('museum/', views.museum),
+    path('scorekeeper/', views.scorekeeper),
+    path('index/', views.index),
+ 
  
    
 ]
